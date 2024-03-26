@@ -43,7 +43,6 @@ export function App({ signOut, user }: WithAuthenticatorProps) {
         <Routes>
           <Route path="/" element={<Home></Home>}></Route>
           <Route path="/meal-search" element={<MealSearch></MealSearch>}></Route>
-          <Route path="/login" element={<Login />}></Route>
           <Route path="/profile" element={<UserProfile />} />
         </Routes>
       </BrowserRouter>
