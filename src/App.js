@@ -8,6 +8,7 @@ import LoginPage from './LoginPage';
 import ProfilePopup from './Pages/ProfilePage/ProfilePopup';
 import UserProfile from './Pages/ProfilePage/ProfilePage';
 import { Login } from './templogin';
+import { Authenticator } from '@aws-amplify/ui-react';
 
 function App() {
   return (
@@ -16,7 +17,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home></Home>}></Route>
           <Route path="/meal-search" element={<MealSearch></MealSearch>}></Route>
-          <Route path="/login" element={<Login />}></Route>
+          <Authenticator>
+            <Route path="/login" element={<Login />}></Route>
+          </Authenticator>
           <Route path="/profile" element={<UserProfile />} />
         </Routes>
       </BrowserRouter>
