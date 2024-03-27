@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import MealSearchStyle from './CSS Modules/mealSearch.module.css';
 
+//Kaleb Lawrence is responsible for the below const variables and styling
 function MealSearchFunction() {
     const [showDairyCheckboxes, setShowDairyCheckboxes] = useState(false);
     const [showGrainsCheckboxes, setShowGrainsCheckboxes] = useState(false);
