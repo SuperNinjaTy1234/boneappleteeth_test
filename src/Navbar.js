@@ -2,6 +2,7 @@ import logo from './Bone_Apple_Teeth-logos_transparent.png';
 import ProfilePopup from './Pages/ProfilePage/ProfilePopup';
 import mealSearch from './mealSearch';
 import redirect from './mealSearch';
+import UserProfile from './Pages/ProfilePage/ProfilePage';
 
 
 function Navbar() {
@@ -18,8 +19,7 @@ function Navbar() {
             <a className="nav-link" href="#">Contact</a>
           </div>
         </div>
-        <ProfilePopup></ProfilePopup>
-        <a className="nav-link" href="/login"><button className="btn btn-dark" type="submit">Login/Register</button></a>
+        <a className="nav-link" href="/profile"><button className="btn btn-dark" type="submit">User Profile</button></a>
       </div>
     </nav>
   );
