@@ -9,14 +9,13 @@ import ProfilePopup from './Pages/ProfilePage/ProfilePopup';
 import UserProfile from './Pages/ProfilePage/ProfilePage';
 import { Login } from './templogin';
 
-/*function App() {
+function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home></Home>}></Route>
           <Route path="/meal-search" element={<MealSearch></MealSearch>}></Route>
-          <Route path="/login" element={<Login />}></Route>
           <Route path="/profile" element={<UserProfile />} />
         </Routes>
       </BrowserRouter>
@@ -24,9 +23,9 @@ import { Login } from './templogin';
   );
 }
 
-export default App;*/
+export default App;
 
-import { Amplify } from 'aws-amplify';
+/*import { Amplify } from 'aws-amplify';
 import type { WithAuthenticatorProps } from '@aws-amplify/ui-react';
 import { withAuthenticator } from '@aws-amplify/ui-react';
 import '@aws-amplify/ui-react/styles.css';
@@ -49,5 +48,5 @@ export function App({ signOut, user }: WithAuthenticatorProps) {
   );
 }
 
-export default withAuthenticator(App);
+export default withAuthenticator(App);*/
 
